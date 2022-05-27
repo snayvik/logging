@@ -1,6 +1,6 @@
 <?php
 
-namespace Snvk\Logging\Traits\LoggingTrait;
+namespace Snvk\Logging\Traits;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
