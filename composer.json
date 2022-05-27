@@ -1,0 +1,26 @@
+{
+    "name": "snvk/logging",
+    "description": "Creating logging functionality for a user",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Snvk\\Logging\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vinod Patidar",
+            "email": "vinod@snayvik.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Snvk\\Logging\\LoggingServiceProvider"
+            ]
+        }
+    }
+}
